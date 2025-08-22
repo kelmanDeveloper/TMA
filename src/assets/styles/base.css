@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'WixMadeforDisplay';
+  src: url('@/assets/fonts/WixMadeforDisplay-VariableFont_wght.ttf') format('truetype');
+  font-weight: 1 999;
+  font-style: normal;
+  font-display: swap;
+}
+
+html, body, * {
+  font-family: 'WixMadeforDisplay', sans-serif !important;
+}
+
+/* colors */
+:root {
+  --color-background: #0F0F0F;
+  --color-white: #FFF;
+  --color-light-grey: #112235;
+  --color-dark-grey: #1B1533;
+  --color-text-grey: #979797;
+  --color-blue: #6DA1DC;
+  --color-chorr: #603C94;
+  --color-dark-yellow: #FBF42E;
+  --color-overlay: rgba(13, 19, 19, 0.80);
+}
+
+/* font-size */
+:root {
+  --size-10: 10px;
+  --size-12: 12px;
+  --size-14: 14px;
+  --size-16: 16px;
+  --size-18: 18px;
+  --size-20: 20px;
+  --size-24: 24px;
+  --size-32: 32px;
+  --size-42: 42px;
+}
+
+/* line-height */
+:root {
+  --height-16: 16px;
+  --height-18: 18px;
+  --height-20: 20px;
+  --height-22: 22px;
+  --height-24: 24px;
+  --height-36: 36px;
+  --height-40: 40px;
+  --height-56: 56px;
+}
+
+/* font-weight */
+:root {
+  --light: 300;
+  --regular: 400;
+  --medium: 500;
+  --semibold: 600;
+}
